@@ -4,7 +4,7 @@ RUN apt-get install -y git
 
 RUN git clone https://github.com/Dirkadin/monitoring-service.git
 
-COPY /monitoring-service /app
+COPY . /app
 WORKDIR /app
 
 RUN npm install
