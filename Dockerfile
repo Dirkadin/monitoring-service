@@ -9,4 +9,3 @@ WORKDIR /monitoring-service
 RUN npm install
 
 CMD ["npm", "start"]
-
